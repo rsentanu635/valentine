@@ -9,12 +9,11 @@ const buttonTwoRect = buttonTwo.getBoundingClientRect();
 
 buttonOne.addEventListener('click', () => {
     question.innerHTML = 'Yaaaay! I bet you said breh. Hehe. :)';
-    if (myGif.src !=  'https://tenor.com/view/peach-goma-gif-12469418372825049035') {
-        myGif.src !=  'https://tenor.com/view/peach-goma-gif-12469418372825049035';
+    if (myGif.src =  'Images/peach-goma.gif') {
+        myGif.src = 'Images/good-night.gif';
     }
-    else {
-        Image.src = "https://tenor.com/view/peach-goma-gif-17346086270926655341";
-    }
+    buttonOne.style.display = 'none';
+    buttonTwo.style.display = 'none';
 });
 
 buttonTwo.addEventListener('mouseover', () => {
